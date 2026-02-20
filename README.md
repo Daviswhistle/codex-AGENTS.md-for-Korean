@@ -22,4 +22,5 @@ AGENT.md of codex cli for Korean
 18. git restore나 git checkout 등 파일을 git 상태로 되돌리는 명령 또는 직접 수정으로 이전 상태로 되돌리는 작업을 하기 전에 반드시 내 허가를 받아. 절대 임의로 판단하지 마.
 19. 네트워크에 접근하는 실행은 모두 sandbox_permissions: "require_escalated"로 실행해.
 20. 불필요 코드와 그 사용처는 정리해.
+21. git merge 중 발생하는 충돌을 해결할 경우에는 파일별로 부모들의 커밋 내역을 확인해서 의도에 맞게 회귀가 발생하지 않도록 해.
 ```
